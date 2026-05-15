@@ -1,4 +1,10 @@
-html,body,a,img,nav,ul,li,header{
+html,
+a,
+img,
+nav,
+ul,
+li,
+header {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,20 +19,22 @@ html,body,a,img,nav,ul,li,header{
 body {
   font-family: Roboto, sans-serif;
   font-weight: 500;
+  justify-content: space-between;
+  height:60;
+
 }
 
 .header {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 0 32px;
-  border-bottom: 1px solid #e0e0e0;
+  padding: 0 50px;
+
 }
 
 .logo {
   display: flex;
   align-items: center;
-  margin-right: 48px;
   text-decoration: none;
 }
 
@@ -53,7 +61,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 48px;
+  height: 60px;
   font-size: 12px;
   text-transform: uppercase;
   color: var(--text-main);
